@@ -1,0 +1,22 @@
+{
+  "name": "price-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "find": "tsx ./scripts/find",
+    "find-all": "tsx ./scripts/findAll",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "witcat",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "citty": "^0.1.6",
+    "p-retry": "^6.2.0"
+  },
+  "devDependencies": {
+    "shared": "workspace:*"
+  }
+}

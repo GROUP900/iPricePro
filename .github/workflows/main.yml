@@ -1,0 +1,13 @@
+name: Daily Cloudflare Pages Deploy
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Trigger Cloudflare Pages Deploy Hook
+      run: curl -X POST ${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}

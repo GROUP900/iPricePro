@@ -1,0 +1,15 @@
+{
+  "name": "guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "witcat",
+  "license": "ISC",
+  "devDependencies": {
+    "shared": "workspace:*"
+  }
+}

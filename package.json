@@ -1,0 +1,25 @@
+{
+  "name": "ipricepro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "witcat",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/is-url": "^1.2.32",
+    "@types/node": "^20.14.9",
+    "@vitest/coverage-v8": "^2.0.4",
+    "is-url": "^1.2.4",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "es-toolkit": "^1.16.0"
+  },
+  "scripts": {
+    "lint-all": "pnpm --parallel lint"
+  }
+}
